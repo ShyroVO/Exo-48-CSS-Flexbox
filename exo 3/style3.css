@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.contenues {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.div1 {
+    background: grey;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.Boite1, .Boite2{
+    margin: 0.5rem;
+    width: 6rem;
+    height: 6rem;
+}
+
+.couleur1 {
+    background: #1ABC9C;
+}
+
+.couleur2 {
+    background: #3498DB;
+}

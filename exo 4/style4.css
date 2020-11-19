@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.contenues {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.div1 {
+    background: grey;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.Boite1, .Boite2, .Boite3, .Boite4, .Boite5, .Boite6, .Boite7, .Boite8{
+    width: 6rem;
+    height: 6rem;
+    margin: 0.1rem;
+}
+
+.Boite9 {
+    height: 100%;
+    width: 6rem;
+}
+
+.couleur1 {
+    background: #1ABC9C;
+}
+
+.couleur2 {
+    background: #3498DB;
+}
+
+.couleur3 {
+    background: #9B59B6;
+}
+
+.couleur4 {
+    background: #E67E22;
+}
+
+.couleur5 {
+    background: #E74C3C;
+}

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.div1, .div2, .div3 {
+    background: grey;
+    height: auto;
+    width: 400px;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.3%;
+}
+
+.Boite1, .Boite2, .Boite3, .Boite4, .Boite6, .Boite7, .Boite8, .Boite9{
+    width: 6rem;
+    height: 6rem;
+}
+
+.Boite5 {
+    height: 6rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .div2 {
+        width: 200px;
+        height: auto;
+    }
+
+    .div2Boite1, .div2Boite2, .div2Boite3, .div2Boite4, .div2Boite5, .div2Boite6, .div2Boite7, .div2Boite8, .div2Boite9{
+        height: 6rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .div3 {
+        width: 100px;
+        height: auto;
+    }
+
+
+}
+
+.couleur1 {
+    background: #1ABC9C;
+}
+
+.couleur2 {
+    background: #3498DB;
+}
+
+.couleur3 {
+    background: #9B59B6;
+}
+
+.couleur4 {
+    background: #E67E22;
+}
+
+.couleur5 {
+    background: #E74C3C;
+}
