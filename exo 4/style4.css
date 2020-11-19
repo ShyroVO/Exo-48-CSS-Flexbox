@@ -20,19 +20,18 @@ body {
 
 .div1 {
     background: grey;
-    height: 400px;
+    height: 300px;
     width: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .Boite1, .Boite2, .Boite3, .Boite4, .Boite5, .Boite6, .Boite7, .Boite8{
-    width: 6rem;
-    height: 6rem;
-    margin: 0.1rem;
+    width: 7rem;
+    height: 4rem;
 }
 
 .Boite9 {

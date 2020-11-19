@@ -36,7 +36,7 @@ body {
         height: auto;
     }
 
-    .div2Boite1, .div2Boite2, .div2Boite3, .div2Boite4, .div2Boite5, .div2Boite6, .div2Boite7, .div2Boite8, .div2Boite9{
+    .Boite1, .Boite2, .Boite3, .Boite4, .Boite5, .Boite6, .Boite7, .Boite8, .Boite9{
         height: 6rem;
     }
 }

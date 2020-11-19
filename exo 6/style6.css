@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.couleur1 {
+    background: #1ABC9C;
+}
+
+.couleur2 {
+    background: #3498DB;
+}
+
+.couleur3 {
+    background: #9B59B6;
+}
+
+.couleur4 {
+    background: #E67E22;
+}
+
+.couleur5 {
+    background: #E74C3C;
+}
+
+hr {
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contenues {
+    margin: auto;
+    background: grey;
+    color: white;
+    font-size: 1.2rem;
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 {
+    height: 4rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+
+.enfant21, .enfant22 {
+    padding: 1rem;
+}
+
+.enfant21 {
+    width: 80%;
+    padding-bottom: 6rem;
+}
+
+.div3 {
+    height: 4rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .contenues {
+        display: flex;
+    }
+
+    .div2 {
+        flex-direction: column-reverse;
+    }
+
+    .enfant21 {
+        width: 100%;
+        padding: unset;
+    }
+}
